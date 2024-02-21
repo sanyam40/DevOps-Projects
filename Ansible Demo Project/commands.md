@@ -1,5 +1,3 @@
-# Ansible Operations Guide
-
 ## Setting Up Passwordless Authentication
 
 ### Method 1: Using `ssh-copy-id`
