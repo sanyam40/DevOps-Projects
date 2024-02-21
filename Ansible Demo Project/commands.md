@@ -63,17 +63,3 @@
    ```bash
    ansible-playbook install_nginx.yml
    ```
-
-## Ansible Galaxy
-
-Ansible Galaxy is used for writing roles to manage playbooks easily.
-
-To initialize a Kubernetes role:
-
-```bash
-ansible-galaxy role init kubernetes
-```
-
-```
-
-Feel free to adjust or add more details as needed!
