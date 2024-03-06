@@ -1,5 +1,3 @@
-## Comparing with Jenkins 
-
 ### GitHub-Hosted Runners vs. Self-Hosted Runners on EC2
 
 #### GitHub-Hosted Runners
