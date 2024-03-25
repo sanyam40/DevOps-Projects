@@ -17,14 +17,11 @@ spec:
       containers:
       - name: nodejsapp
         image: sanyam40/nodejsapp:v1
-        volumeMounts:
-        - name: nodejsapp
-          mountPath: /app
-        
+        env:
+        - name: PORT
+          valueFrom:
+            configMapKeyRef:
+              name: test-cm
+              key: PORT
         ports:
         - containerPort: 3000
-
-      volumes:
-      - name: nodejsapp
-        configMap:
-          name: test-cm
