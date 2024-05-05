@@ -1,0 +1,39 @@
+--> TO CHECK THE VERSION : 
+docker --version
+
+--> TO RUN AN IMAGE : 
+docker run hello-world
+
+--> TO CHECK ALL THE IMAGES : 
+docker images
+
+--> TO PULL IMAGES FROM ONLINE DB : 
+docker pull [ ]
+
+--> TO SEARCH FOR IMAGES :
+docker search python
+
+--> TO RUN AN IMAGE
+docker run openjdk
+docker run -it openjdk ( run in interactive mode )
+
+--> TO CHECK FOR RUNNING IMAGES :
+docker ps -a
+
+--> TO EXECUTE IMAGE
+docker exec -it 62cec8ea5acc 
+
+--> TO SEE ALL THE DETAILS OF IMAGE
+docker inspect []
+
+--> TO CREATE AN IMAGE 
+docker build -t [ ] .
+
+--> TO RUN DOCKER COMPOSE FILE 
+docker-compose up
+
+--> FOR DEV DOCKER FILE
+ docker build -f Dockerfile.dev -t reactapp .
+
+--> TO RUN THE IMAGE WITH PORT NO
+docker run -it --name [ ] -p 8080:8080 [ ] 
